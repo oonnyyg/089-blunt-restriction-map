@@ -1,0 +1,15 @@
+{
+  "dna": [
+    {"id": "plasmid", "sequence": "AAGGCCAAGGCC", "topology": "circular"},
+    {"id": "chr1", "sequence": "AAAGATATCTTT", "topology": "linear"}
+  ],
+  "enzymes": [
+    {"id": "EcoRV", "recognition": "GATATC"},
+    {"id": "HaeIII", "recognition": "GGCC"}
+  ],
+  "digests": [
+    {"id": "d1", "dna": "chr1", "enzymes": ["EcoRV"]},
+    {"id": "d2", "dna": "plasmid", "enzymes": ["HaeIII", "EcoRV"]},
+    {"id": "d3", "dna": "plasmid", "enzymes": []}
+  ]
+}
